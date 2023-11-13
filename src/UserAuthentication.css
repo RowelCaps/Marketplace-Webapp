@@ -1,0 +1,87 @@
+:root{
+    --gray-color: #A7A7A7; 
+}
+
+.login-section{
+    background-image: url('./paint-splash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: inherit;
+    width: 350px;
+    padding: 0px 60px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+form{
+    margin-top: 20px;
+}
+
+form, form > *{
+    width: inherit;
+}
+
+.input-form{
+    height: 40px;
+    border: 1px solid var(--gray-color);
+    margin: 5px 0px;
+}
+
+.submit-button{
+    height: 4vh;
+    border-radius: 12px;
+    border: none;
+    background-color: var(--primary-color);
+    color:white;
+    font-size: 15px;
+}
+
+.arrow-back{
+    align-self: flex-start;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 40px;
+}
+
+.font-14{
+    font-size: 14px;
+}
+
+.welcome-header{
+    font-size: 32px;
+}
+
+.login-reminder{
+    font-size: 16px;
+    color: var(--gray-color);
+}
+
+.login-options{
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.remember-me-checkbox{
+    width: 20px;
+    height: 20px;
+}
+
+.remember-me-text{
+    margin: 0;
+    padding: 0;
+    padding-left: 7px;
+}
+
+.login-links-container{
+    display: flex;
+    gap:30px;
+}
